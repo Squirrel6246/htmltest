@@ -1,9 +1,18 @@
-html{
-    font-family: verdana, arial;
+@font-face {
+    font-family: PressStart2P;
+    src: url(/fonts/PressStart2P-Regular.ttf);
+}
+@font-face {
+    font-family: vt323;
+    src: url(/fonts/VT323-Regular.ttf);
 }
 
-.header{
-    font-family: arial;
+header{
+    font-family: PressStart2P;
+}
+
+main{
+    font-family: vt323;
 }
 
 #hidden{
